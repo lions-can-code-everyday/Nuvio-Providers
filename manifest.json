@@ -45,6 +45,19 @@
       ]
     },
     {
+      "id": "streamflix",
+      "name": "StreamFlix",
+      "description": "1080p Movies in Multi-Lang",
+      "version": "2.0.0",
+      "author": "Kabir",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/streamflix.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/4yVjQjpH/streamflix.png",
+      "contentLanguage": ["en", "hi", "ta"] 
+    },
+    {
       "id": "yflix",
       "name": "YFlix",
       "description": "YFlix streaming",
