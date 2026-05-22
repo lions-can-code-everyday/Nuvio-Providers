@@ -24,6 +24,27 @@
       "supportsExternalPlayer": false
     },
     {
+      "id": "xprime",
+      "name": "Xprime",
+      "description": "Auto-generated description for Xprime",
+      "version": "1.0.0",
+      "author": "Michat88",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/xprime.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "logo": "https://via.placeholder.com/150",
+      "contentLanguage": [
+        "en"
+      ]
+    },
+    {
       "id": "yflix",
       "name": "YFlix",
       "description": "YFlix streaming",
