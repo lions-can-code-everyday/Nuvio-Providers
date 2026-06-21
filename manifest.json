@@ -1,28 +1,7 @@
 {
   "name": "lionden9010's Repo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scrapers": [
-    {
-      "id": "netmirror",
-      "name": "NetMirror",
-      "description": "Streaming links from netmirror. Automatically disabled on iOS due to compatibility issues.",
-      "version": "1.0.2",
-      "author": "Nuvio Team",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/netmirror.js",
-      "enabled": true,
-      "logo": "https://net22.cc/favicon.ico",
-      "contentLanguage": [
-        "en"
-      ],
-      "disabledPlatforms": [
-        "ios"
-      ],
-      "supportsExternalPlayer": false
-    },
     {
       "id": "netmirrornew",
       "name": "NetMirrorNew",
@@ -71,27 +50,6 @@
       "contentLanguage": ["en", "hi", "ta"] 
     },
     {
-      "id": "myflixer-extractor",
-      "name": "Myflixer-extractor",
-      "description": "Auto-generated description for Myflixer-extractor",
-      "version": "1.0.0",
-      "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/myflixer-extractor.js",
-      "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
-      "logo": "https://via.placeholder.com/150",
-      "contentLanguage": [
-        "en"
-      ]
-    },
-    {
       "id": "playimdb",
       "name": "PlayIMDb (Movies)",
       "description": "High-Speed Direct Streaming for Movies (IMDb ID Extract)",
@@ -117,27 +75,17 @@
       "logo": "https://i.postimg.cc/KzjPtYWY/imdb.png",
       "contentLanguage": ["en", "hi"]
     },
-    {
-      "id": "yflix",
-      "name": "YFlix",
-      "description": "YFlix streaming",
-      "version": "1.1.2",
-      "author": "Nuvio Team",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/yflix.js",
-      "enabled": true,
-      "limited": true,
-      "formats": [
-        "m3u8",
-        "mp4"
-      ],
-      "logo": "https://yflix.to/assets/uploads/2f505f3de3c99889c1a72557f3e3714fc0c457b0.png",
-      "contentLanguage": [
-        "en"
-      ]
+    { "id": "Cineby", 
+      "name": "Cineby", 
+      "description": "Multi-server movie and TV streaming — 4K/1080p/720p from Videasy network without subtitles", 
+      "version": "1.9.4", 
+      "author": "Nuvio Team", 
+      "supportedTypes": [ "movie", "tv" ], 
+      "filename": "providers/cineby.js", 
+      "enabled": true, 
+      "formats": [ "m3u8" ], 
+      "logo": "https://raw.githubusercontent.com/nvmindl/nuvio-providers/main/Assets/cineby.png", 
+      "contentLanguage": [ "ar", "en" ] 
     }
   ]
 }
