@@ -74,6 +74,84 @@
       "formats": ["mp4", "mkv", "m3u8"],
       "logo": "https://i.postimg.cc/KzjPtYWY/imdb.png",
       "contentLanguage": ["en", "hi"]
+    },
+    { 
+      "id": "vidlink", 
+      "name": "VidLink", 
+      "description": "Vidlink streaming with encrypted TMDB ID support for movies and TV shows", 
+      "version": "1.0.0", 
+      "author": "Nuvio Team", 
+      "supportedTypes": ["movie", "tv"], 
+      "filename": "providers/vidlink.js", 
+      "enabled": true, 
+      "formats": ["mp4", "m3u8"], 
+      "logo": "https://i.postimg.cc/RZRHQd75/vidlink.png", 
+      "contentLanguage": ["en"] 
+    }, 
+    { 
+      "id": "videasy", 
+      "name": "VidEasy", 
+      "description": "Videasy streaming with encrypted TMDB ID support for movies and TV shows", 
+      "version": "1.0.0", 
+      "author": "Nuvio Team", 
+      "supportedTypes": ["movie", "tv"], 
+      "filename": "providers/videasy.js", 
+      "enabled": true, 
+      "formats": ["mp4", "m3u8"], 
+      "logo": "https://i.postimg.cc/7LHYMtVV/videasy.png", 
+      "contentLanguage": ["en"] 
+    },
+    { 
+      "id": "multivid", 
+      "name": "MultiVid", 
+      "description": "MultiVid - Includes VidEasy, VidLink, VidMody & VidSrc", 
+      "version": "1.0.0", 
+      "author": "Nuvio Team", 
+      "supportedTypes": ["movie", "tv"], 
+      "filename": "providers/multivid.js", 
+      "enabled": true, 
+      "formats": ["mp4", "m3u8"], 
+      "logo": "https://i.postimg.cc/brxL7qg3/multivid.png", 
+      "contentLanguage": ["en"] 
+    },
+    { 
+      "id": "playimdb", 
+      "name": "PlayIMDb", 
+      "description": "High-Speed Direct Streaming for Movies (IMDb ID Extract)", 
+      "version": "2.0.0", 
+      "author": "PirateZoro9", 
+      "supportedTypes": ["movie", "tv"], 
+      "filename": "providers/playimdb.js", 
+      "enabled": true, 
+      "formats": ["mp4", "mkv", "m3u8"], 
+      "logo": "https://i.postimg.cc/KzjPtYWY/imdb.png", 
+      "contentLanguage": ["en", "hi"] 
+    },
+    { 
+      "id": "notorrent", 
+      "name": "NoTorrent", 
+      "description": "Non-P2P direct resolution proxy.", 
+      "version": "1.0.0", 
+      "author": "Dustincos", 
+      "supportedTypes": ["movie", "tv"], 
+      "filename": "providers/notorrent.js", 
+      "enabled": true, 
+      "formats": ["mp4", "m3u8"], 
+      "logo": "https://i.postimg.cc/FsSpNcVP/notorrent.png", 
+      "contentLanguage": ["en", "es"] 
+    },
+    { 
+      "id": "FaselHD", 
+      "name": "FaselHD", 
+      "description": "Arabic Hard Sub movies, TV shows, and anime — 1080p/720p/360p streams from FaselHD CDN", 
+      "version": "16.3.3", 
+      "author": "Nuvio Team", 
+      "supportedTypes": [ "movie", "tv" ], 
+      "filename": "providers/faselhd.js", 
+      "enabled": true, 
+      "formats": [ "m3u8" ], 
+      "logo": "https://raw.githubusercontent.com/nvmindl/nuvio-providers/main/Assets/faselhdx.png", 
+      "contentLanguage": [ "ar", "en", "ja" ] 
     }
   ]
 }
