@@ -35,20 +35,12 @@
       "description": "Auto-generated description for Xprime",
       "version": "1.0.0",
       "author": "Michat88",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/xprime.js",
       "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
+      "formats": ["mp4", "m3u8"],
       "logo": "https://via.placeholder.com/150",
-      "contentLanguage": [
-        "en"
-      ]
+      "contentLanguage": ["en"]
     },
     {
       "id": "streamflix",
@@ -148,7 +140,7 @@
       "version": "1.0.0", 
       "author": "Dustincos", 
       "supportedTypes": ["movie", "tv"], 
-      "filename": "providers/notorrent.js", 
+      "filename": "https://github.com/D3adlyRocket/All-in-One-Nuvio/raw/refs/heads/main/providers/notorrent.js", 
       "enabled": true, 
       "formats": ["mp4", "m3u8"], 
       "logo": "https://i.postimg.cc/FsSpNcVP/notorrent.png", 
