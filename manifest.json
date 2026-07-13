@@ -1,7 +1,21 @@
 {
   "name": "lionden9010's Repo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scrapers": [
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "description": "Netflix | Prime | Disney",
+      "version": "1.0.0",
+      "author": "Dustincos",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://github.com/D3adlyRocket/All-in-One-Nuvio/raw/refs/heads/main/providers/netmirror.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "m3u8", "mkv"],
+      "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
+      "contentLanguage": ["en", "hi", "ta", "te"]
+    },
     {
       "id": "netmirrornew",
       "name": "NetMirrorNew",
